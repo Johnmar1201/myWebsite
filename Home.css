@@ -1,0 +1,232 @@
+       * {
+           padding: 0;
+           margin: 0;
+           font-family: 'Rajdhani', sans-serif;
+           max-width: 1500px;
+       }
+body {
+           background-image: url('/');
+           background-color: white;
+           width: 100%;
+           height: 150vh;
+           background-position: center;
+           background-size: cover;
+           background-attachment: fixed;
+           display:fixed;
+           position:absolute;
+           max-width: 1500px;
+       }
+       .nav_con {
+           text-align: center;
+           align-items: center;
+           justify-content: center;
+           
+       }
+       .form_title a {
+           text-decoration: none;
+           color: white;
+       }
+       .nav_form {
+           width: 100vw;
+           height: 10vh;
+           position: fixed;
+           display: absolute;
+           background: Black;
+           box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+           
+       }
+       .form_title {
+           color: white;
+           display:inline-block;
+           float: left;
+           font-size: 19px;
+           margin-top: 12px;
+           font-weight: bold;
+       }
+       .sp {
+           font-style: italic;
+           font-weight:bold;
+           color: white;
+       }
+       
+       .nav_button {
+           margin-top: 25px;
+           float: right;
+           display: inline-block;
+           font-size: 17px;
+       }
+       .nav_button a {
+           margin-right: 12px;
+           color: white;
+           text-decoration: none;
+       }
+       .nav_button i {
+           margin-right: 4px;
+       }
+         .logo_con {
+             
+             width: 100vw;
+             height: 18vh;
+             margin-top: 25%;
+         }
+         .logo_for {
+             justify-content: center;
+             float: left;
+             
+             
+         }
+         .logo_for i {
+             font-size: 110px;
+             margin-top: 40px;
+             margin-left: 15px;
+             padding-right: 5px;
+             
+         }
+         .logo_for a {
+             text-decoration: none;
+             color: Black;
+             font-size: 35px;
+             font-weight: bold;
+       
+            
+             
+         }
+         .logo_for span {
+             font-style: italic;
+         }
+         
+         .parah {
+             text-align: center;
+             height: 17vh;
+             color: gray;
+         }
+         .parah p {
+             width: 150px;
+             float: right;
+             border-left: 2px solid gray;
+             padding-left: 50px;
+             padding-right: 20px;
+             font-weight:bold;
+         }
+         .second_page {
+              text-align: center;
+              justify-content: center;
+              box-sizing: border-box;
+              
+          } 
+          .second_container {
+              margin-top: 22%;
+              width: 100vw;
+              height: 440px;
+              color: white;
+              background-color:Black;
+              
+          }
+          .second_title  {
+              padding-top: 18px;
+              margin-bottom: 20px;
+              font-size: 25px;
+              font-weight:bold;
+          }
+          .second_title span {
+              font-style: italic;
+          }
+          .msg_p {
+              color: gray;
+              font-size: 15px;
+              width: 480px;
+              margin-left: 16px;
+              font-weight: bold;
+              padding-bottom: 15px;
+              border: none;
+              border-bottom: 2px solid gray;
+              margin-bottom: 13px;
+          }
+          
+          .second_img img {
+              width: 480px;
+              height: 250px;
+              border-radius:10px;
+              margin-right: 10px;
+          }
+          .third_page {
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+          } 
+          .third_container {
+              width: 100vw;
+              height: 340px;
+              margin-top:45px;
+              
+          }
+          .third_title h2 {
+              font-size: 30px;
+              font-weight: bold;
+              margin-bottom: 20px;
+          }
+          .third_container p {
+              float: left;
+              font-size: 15px;
+              width: 45vw;
+              border: 2px solid black;
+              padding:5px;
+              margin-left: 10px;
+              border-radius: 5px;
+          }
+          .third_container img {
+            float: left;
+            width: 40vw;
+            height: 19vh;
+            padding-left: 5vw;
+            margin-left: 15px;
+            border-left: 1px solid gray;
+          }
+          .third_button {
+             text-align: center;
+             justify-content: center;
+             float: left;
+             display: block;
+             margin-left: 20px;
+          }
+          .third_button button {
+              margin-top: 5px;
+              padding: 5px 25px;
+              font-size: 15px;
+              font-weight: bold;
+              font-family: Sans-Serif;
+              border: none;
+              border-bottom:1px solid black;
+              background-color: transparent;
+              border-radius:5px;
+              margin-left: 10px;
+          }
+          .foater_container {
+             text-align: center;
+             justify-content: center;
+             margin-top: 67%;
+             background-color: white;
+             width: 100vw;
+             height: auto;
+             
+          }
+          .foater_container h1 {
+              color: black;
+              font-size: 15px;
+              padding-top: 10px;
+              margin-bottom: 5px;
+              font-weight: bold;
+          }
+          .foater_container i {
+              color: Black;
+              font-size: 15px;
+              font-weight: bold;
+              padding: 0px 10px;
+          }
+          .mar_bn {
+              width: 97vw;
+              height: 1px;
+              background-color: black;
+              margin-left: 1vh;
+              margin-top: 10px;
+          }

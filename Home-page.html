@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+     <link rel="stylesheet"  href="Home.css">
+    <script src="https://kit.fontawesome.com/b7701db79e.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Homepage_J'HTML></title>
+    
+</head>
+<body>
+     <div class="nav_con">
+         <div class="nav_form">
+           <div class="form_title">
+              <a href="/Index.html"><h1>J'<span class="sp">HTML></span></h1></a>
+           </div>
+           <div class="nav_button">
+              
+               <a href="/LogInForm/LogIn-form.html"><i class="fa-solid fa-right-to-bracket"></i>LOG IN</a>
+           </div>
+           <div class="nav_button">
+               
+               <a href="/Contact/Contact.html"><i class="fa-solid fa-phone"></i>CONTACT</a>
+           </div>
+           <div class="nav_button">
+              
+               <a href="/HomePage/Home-page.html"><i class="fa-solid fa-house-user"></i>HOME</a>
+           </div>
+         </div>
+     </div>
+   
+         <div class="logo_con">
+           <div class="logo_for">
+             <a href=""><i class="fa-solid fa-masks-theater"></i>J'<span>HTML></span></a>
+             
+           </div>
+           <div class="parah">
+               <p><br>" Welcome! Hello, Thankyou for visiting myWebsite what can i help for you?<br> This Website is for your health and personal safety only. " 
+               <br> 
+               <br></p>
+           </div>
+       </div>
+       
+       <div class="second_page">
+           <div class="second_container">
+               <div class="second_title"><h2 >Welcome to J'<span>HTML></span></h2></div>
+               <p class="msg_p">" This WebPage is a newly create we can offer you anything that relatively in our services and gave you a more knowlegde and understanding about Coding language, and how this Page well help you. THANKYOU AND ENJOY 😇 "</p>
+                <div class="second_img">
+                 <img src="develo.jpg" width="100px" height="100px">
+                </div>
+           </div>
+       </div>
+       
+       <div class="third_page">
+           <div class="third_container">
+               <div class="third_title"><h2 id="h2">Defination of HTML</h2></div>
+               <p id="demo">' HTML '<br> <br>• HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.<br></p>
+               <img id="img1" src="Html-1.jpg">
+               
+               <div class="third_button">
+                  <button type="button" onclick="myFunc1()">1</button>
+                  <button type="button" onclick="myFunc2()">2</button>
+                  <button type="button" onclick="myFunc3()">3</button>  
+               </div>
+             </div>
+       </div>
+       
+       <script>
+           function myFunc1() {
+               document.getElementById("img1").src = "Html-1.jpg";
+               document.getElementById("h2").innerHTML = " Defination of HTML ";
+               document.getElementById("demo").innerHTML = "' " + "HTML" + " '" + "<br>" + "<br>" + "• HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes." + "<br>";
+           }
+           function myFunc2() {
+               document.getElementById("img1").src = "Css-1.jpg";
+               document.getElementById("h2").innerHTML = " Defination of CSS ";
+               document.getElementById("demo").innerHTML = "' " + "CSS" + " '" + "<br>" + "<br>" + "• Stands for Cascading Style Sheet are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML, This is why most Web pages today incorporate cascading style sheets."; 
+           }
+           function myFunc3() {
+               document.getElementById("img1").src = "Js-1.jpg";
+               document.getElementById("h2").innerHTML = " Defination of JavaScript ";
+               document.getElementById("demo").innerHTML = "' " + "JAVASCRIPT" + " '" + "<br>" + "<br>" + "• JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else." + "<br>" + "(Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)";
+           }
+       </script>
+   
+       <div class="foater_container">
+          <foater >
+              <h1 >Made with 💖 with J'HTML></h1>
+              <a href="https://www.facebook.com/jhonmar.sarmiento.94"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/invites/contact/?i=1wvelm9d4yddy&utm_content=ogqtekm"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@jj2tzy"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://github.com/Johnmar1201"><i class="fa-brands fa-github"></i></a>
+              <div class="mar_bn"></div>
+              <small>© 2022, J'HTML IT company all rights reserve</small>
+          </foater>
+       </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+       * {
+           padding: 0;
+           margin: 0;
+           font-family: 'Rajdhani', sans-serif;
+           max-width: 1500px;
+       }
+              body {
+           background-image: url('/');
+           background-color: white;
+           width: 100%;
+           height: 90vh;
+           background-position: center;
+           background-size: cover;
+           background-attachment: fixed;
+           display:fixed;
+           position:absolute;
+           max-width: 1500px;
+       }
+       .nav_con {
+           text-align: center;
+           align-items: center;
+           justify-content: center;
+           
+       }
+       .nav_form {
+           width: 100vw;
+           height: 10vh;
+           position: fixed;
+           display: absolute;
+           background: Black;
+           box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+           
+       }
+       .form_title a {
+           text-decoration: none;
+           color: white;
+       }
+           
+       .form_title {
+           color: white;
+           display:inline-block;
+           float: left;
+           font-size: 19px;
+           margin-top: 12px;
+           font-weight: bold;
+           text-decoration: none;
+       }
+       .sp {
+           font-style: italic;
+           font-weight:bold;
+           color: white;
+       }
+       
+       .nav_button {
+           margin-top: 25px;
+           float: right;
+           display: inline-block;
+           font-size: 17px;
+       }
+       .nav_button a {
+           margin-right: 12px;
+           color: white;
+           text-decoration: none;
+       }
+       .nav_button i {
+           margin-right: 4px;
+       }
+               .regist_container {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .regist_form {
+            margin-top: 50%;
+            margin-left:7%;
+            width: 85vw;
+            height: 513px;
+            display: block;
+            box-sizing: border-box;
+            background-color: Black;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+           
+            
+        }
+        .regist_title {
+            color: white;
+            margin: 0px 8px;
+            font-size: 18px;
+            padding: 10px 15px;
+            padding-bottom: 20px;
+            border: none;
+            border-bottom: 2px solid gray;
+            margin-bottom: 30px;
+            
+        }
+        .regist_stl input {
+            width: 55vw;
+            color: gray;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 5px 12px;
+            display: block;
+            margin-left: 60px;
+            margin-top: 15px;
+            border-radius: 10px;
+            outline: none;
+            padding-left: 20px;
+        }
+        .regist_stl2 input {
+            margin-top: 2px;
+            margin-left: 60px;
+            padding: 2px;
+            float: left;
+            margin-right: 5px;
+           
+        }
+        .regist_stl2 p {
+            color: white;
+            margin-top: 15px;
+            width: 319px;
+            height: 70px;
+            margin-left: 60px;
+            text-align: justify;
+            
+           
+        }
+        .regist_stl2 a {
+            color: gray;
+            font-weight: bold;
+            
+        }
+        .regist_stl2 button {
+           font-size: 20px;
+           padding: 5px 20px;
+           width: 250px;
+           margin-top: 25px;
+           border-radius: 20px;
+   
+        }
